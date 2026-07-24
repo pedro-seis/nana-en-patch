@@ -1,0 +1,16 @@
+# Never commit ROMs or copyrighted game assets
+*.nds
+*.srl
+roms/
+
+# Never commit decoded/translated script text (copyrighted dialogue)
+translation_data/
+*.tsv
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Build artifacts
+*.bin
